@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+html,body{
+  scroll-behavior: smooth;
+}
+
+
+
+img{
+  max-width: 100%;
+  display: block;
+}
+a{
+  display: block;
+  color: black;
+}
+
+
+/* UTILIDADES */
+.container{
+  
+max-width: 1900px;
+margin: 0 auto ;
+padding:40px 30px ;
+}
+
+/* CABECALHO */
+.cor-cabecalho{
+background-color:#C0C0C0;
+}
+.header{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu{
+  display:flex;
+   align-items: center;
+   gap: 20px ;
+
+}
+
+.menu li a{
+color:black;
+}
+
+
+.introducao{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display:flex;
+  gap: 100px;
+  
+}
+
+.textos{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 500px;
+  align-items: flex-start;
+}
+
+.titulo{
+  font-size: 3rem;
+  color:black;
+}
+
+.paragrafo{
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+#veja{
+  font-size: 1.2rem;
+  color:black;
+background-color:dimgrey;
+padding: 10px 25px;
+border-radius: 6px;
+transition: .3s all;
+}
+
+#veja:hover{
+background: #363636;
+color: cornsilk;
+}
+
+/*  Mecher em produtos */
+.titulo-produto{
+  font-size: 2.5rem;
+  color: black;
+}
+
+/* Vamos lista os produtos da loja */
+.lista-produto{
+display: grid;
+grid-template-columns: 2fr 2fr 2fr;
+gap: 50px;
+margin-top: 30px;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  gap: 15px;
+  background-color: #DCDCDC;
+  padding: 15px;
+  
+}
+
+.item .nome-produto h2{
+  color:#363636;
+  font-size: 1.7rem;
+}
+.item .desc-produto p{
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+.preco{
+  background:#A9A9A9;
+  color: black;
+  padding: 8px;
+  text-align: center;
+  border-radius: 6px;
+}
+/* imagens das joias */ 
+
+#imagem1{
+  border: 1px solid black ;
+  height:350px ;
+  background-image: url(Imagens/brincos.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+}
+#imagem2{
+  border: 1px solid black ;
+  height:350px ;
+  background-image: url(Imagens/cordao\ de\ cruz);
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+}
+#imagem3{
+  border: 1px solid black ;
+  height:350px ;
+  background-image: url(Imagens/conjunto.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+}#imagem4{
+  border: 1px solid black ;
+  height:350px ;
+  background-image: url(Imagens/pulseira.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+}#imagem5{
+  border: 1px solid black ;
+  height:350px ;
+  background-image: url(Imagens/cordao\ coracao.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+}#imagem6{
+  border: 1px solid black ;
+  height:350px ;
+  background-image: url(Imagens/aneis.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+}
+
+/* FAZER O RODAPE */
+
+.rodape-cor{
+  background:#DCDCDC;
+}
+.rodape{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.redes-sociais{
+display: flex;
+gap:15px;
+}
+
+i{
+  font-size: 1.5rem;
+}
